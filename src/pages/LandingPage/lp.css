@@ -1,0 +1,31 @@
+.home-title {
+  text-align: center;
+  margin-top: 100px;
+}
+.category-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category-item {
+  width: 200px;
+  height: 140px;
+  background-color: bisque;
+  border: 1px solid #34495e;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #34495e;
+  box-shadow: 0 0 2px #999;
+}
+.category-item a {
+  color: #fff;
+  font-size: 28px;
+  
+}
