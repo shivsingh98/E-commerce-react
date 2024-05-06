@@ -1,0 +1,55 @@
+.header {
+  padding: 20px 0;
+  background-color: #ecf0f1;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  line-height: 24px;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+.logo a {
+  color: #000;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.user-actions a {
+  color: #333;
+  text-decoration: none;
+}
+
+.user-actions a:first-child {
+  margin-right: 40px;
+}
+.user-actions a:last-child {
+  margin-right: 0;
+}
+
+.user-intro {
+  line-height: 30px;
+  width: 100px;
+  margin-right: 40px;
+  background-color: rgb(3, 3, 14);
+  color: #fff;
+  border-radius: 25px;
+  text-align: center;
+  padding: 1px 10px;
+}
